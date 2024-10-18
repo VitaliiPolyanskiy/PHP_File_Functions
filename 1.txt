@@ -1,0 +1,5 @@
+﻿Компиляция проекта в VS 2005 с включением в проект всех используемых библиотек:
+1) Project - Properties - Configuration Properties - C/C++ - Code Generation.
+   Изменить строку Runtime Library с /MDd на /MTd
+2) Project - Properties - Configuration Properties - Linker - Input.
+   Добавить в строку Ignore Specific Library библиотеку msvcprtd.lib
